@@ -1,6 +1,6 @@
-# ImageNet21K Semantic Image Retrieval System
+# Semantic Image Retrieval System
 
-A web-based image visualization tool that performs semantic retrieval over a JSONL dataset using the ImageNet21K hierarchical taxonomy.
+A web-based image visualization tool that performs semantic retrieval over a JSONL dataset using the  hierarchical taxonomy.
 
 ## Architecture Overview
 
@@ -95,7 +95,6 @@ ImageNet21K/
 ├── README.md                    # This file
 ├── requirements.txt             # Python dependencies
 ├── run.sh                       # Startup script
-├── imagenet21k_miil_tree.pth    # Raw taxonomy data
 │
 ├── backend/
 │   ├── main.py                  # FastAPI application
