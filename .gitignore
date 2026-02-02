@@ -1,0 +1,16 @@
+# 排除 Python 虚拟环境
+.venv/
+__pycache__/
+*.pyc
+
+# 排除前端依赖（核心！）
+node_modules/
+frontend/node_modules/
+
+# 排除前端编译产物
+frontend/dist/
+
+# 排除操作系统日志等
+.DS_Store
+.idea/
+.vscode/
